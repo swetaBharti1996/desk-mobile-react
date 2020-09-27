@@ -1,46 +1,41 @@
-.navbar-wrapper{
-    display: flex;
-    
-    
+.navbar-wrapper {
+  display: flex;
 }
 
-.navbar-wrapper button{
-    border-right: 1px solid #F0F0F0;
-    background-color: white;
-    font-size: 0.8rem;
-    font-weight: regular; 
+.navbar-wrapper button {
+  border-right: 1px solid #f0f0f0;
+  background-color: white;
+  font-size: 0.8rem;
+  font-weight: regular;
 }
 .navbar-wrapper div {
-    border-right: 1px solid #F0F0F0;
-    border-bottom: 1px solid #F0F0F0;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
 
-    background-color: white;
-    font-size: 1.1rem;
-    font-weight: bold; 
-    padding: 0.7rem 1rem;
+  background-color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
 }
-    
-.logout{
-    
-    height: 2.8rem;
-    width: 10rem;
-    }
-    .logout  img{
-        width:2rem;
-        height:2rem;
-        border-radius: 50%;
-    }
-    .upgrade {
-    height: 2.8rem;
-    width: 8rem;
-    }
-    .membership{
-    height: 2.8rem;
-    width: 10rem;
-    }
-    .search{
-        height: 2.8rem;
-        width: 35.91rem;
-        
-    }
-   
+
+.logout {
+  height: 2.8rem;
+  width: 20%;
+}
+.logout img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.upgrade {
+  height: 2.8rem;
+  width: 10%;
+}
+.membership {
+  height: 2.8rem;
+  width: 20%;
+}
+.search {
+  height: 2.8rem;
+  width: 50%;
+}

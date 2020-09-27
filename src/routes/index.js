@@ -7,11 +7,7 @@ const RouteHandle = () => {
   return (
     <Switch>
       <Route exact strict path="/" component={Home} />
-      
       <Route exact strict path="/mobile" component={Mobile} />
-
-
-
     </Switch>
   );
 };

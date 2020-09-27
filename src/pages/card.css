@@ -1,20 +1,17 @@
-.card-desktop{
-    height: 10rem;
-    width: 25rem;
-    font-family: sans-serif;
+.card-desktop {
+  height: 10rem;
+  width: 25rem;
+  font-family: sans-serif;
 }
- .card-body-desktop{
-    display: flex;
-    justify-content: flex-start;
+.card-body-desktop {
+  display: flex;
+  justify-content: flex-start;
 }
-.card-tv-desktop{
-    display: flex;
-    justify-content: flex-start;
+.card-tv-desktop {
+  display: flex;
+  justify-content: flex-start;
 }
-.wrapper-desktop{
-    display: flex;
-    flex-wrap: wrap;
-  
-    
-    } 
-   
+.wrapper-desktop {
+  display: flex;
+  flex-wrap: wrap;
+}

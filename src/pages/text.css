@@ -1,21 +1,17 @@
-.layout-text{
-    
-
+.layout-text {
 }
-.sections{
-    display: flex;
-    
-    
+.sections {
+  display: flex;
 }
-.sections-all{
-    display: flex;
-    justify-content: space-between;
+.sections-all {
+  display: flex;
+  justify-content: space-between;
 }
-.image{
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
+.image {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
 }
-.image1{
-    width: 22rem;
+.image1 {
+  width: 45%;
 }

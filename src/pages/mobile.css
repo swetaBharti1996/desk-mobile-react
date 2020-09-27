@@ -1,11 +1,8 @@
-.text-link{
-    display: flex;
-    justify-content: space-around;
-
-    
+.text-link {
+  display: flex;
+  justify-content: space-around;
 }
-.text-link a{
-    font-weight: bolder;
-    color: #484848;
-
+.text-link a {
+  font-weight: bolder;
+  color: #484848;
 }

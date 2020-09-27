@@ -1,21 +1,20 @@
-.mobile-header{
-    color:white;
-    font-family: sans-serif;
+.mobile-header {
+  color: white;
+  font-family: sans-serif;
 }
-.nabar-mobile-image{
-    border-radius: 50%;
-    height: 3rem;
-    width: 3rem;
+.nabar-mobile-image {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
 }
-.mobile-search{
-    display: flex;
-    justify-content: space-between;
-    font-family: sans-serif;
-    font-weight: normal;
-    background-color: whitesmoke;
-    border: whitesmoke;
-    
-    width: 92%;
-    margin:4%;
-    height:2rem;
+.mobile-search {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-weight: normal;
+  background-color: whitesmoke;
+  border: whitesmoke;
+  width: 92%;
+  margin: 4%;
+  height: 2rem;
 }
