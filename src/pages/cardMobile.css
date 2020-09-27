@@ -1,0 +1,21 @@
+.card{
+    height: 10rem;
+    
+    font-family: sans-serif;
+    
+
+}
+ .card-body-mobile{
+    display: flex;
+    justify-content: flex-start;
+}
+.card-tv-mobile{
+    display: flex;
+    justify-content: flex-start;
+}
+.wrapper-mobile{
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+    } 

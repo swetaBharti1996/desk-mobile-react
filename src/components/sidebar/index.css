@@ -1,0 +1,68 @@
+.sidebar{
+    
+    background-color:#080808;
+    position:fixed;
+    height: 100%;
+    
+    font-family: sans-serif;
+  }
+  
+  .sidebar p a {
+  
+    color:white;
+    text-decoration: none;
+    
+  }
+  
+  .sidebar  span{
+    color:#989898;
+  }
+  .all-chapter{
+    border-bottom:1px solid white;
+    
+
+   }
+  
+  
+  .all-chapter:hover {
+    background-color:#BEBEBE;
+    color:black;
+  
+    }
+  
+  
+  
+  .top{
+      color:white;
+      display: flex;
+      background-color: #404040;
+  }
+  .top img{
+      height:2rem ;
+      width: 1.1rem;
+  }
+  .top h6{
+      color: white;
+  }
+  .home{
+    color:white;
+    display: flex;
+    background-color:#282828;
+  }
+  .home h6{
+    color: white;
+
+  }
+  .cus-btn{
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .cus-btn button{
+    width: 6rem ;
+    height: 2rem;
+    color: white; 
+    border: white;
+    background-color: #404040;
+    font-size:0.6rem;
+  }

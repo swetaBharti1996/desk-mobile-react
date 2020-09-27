@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 
 import {faTv } from "@fortawesome/free-solid-svg-icons";
-import './card.css';
+import './cardMobile.css';
   
   export default class Card extends React.Component{
 
@@ -29,19 +29,20 @@ import './card.css';
         
           return(
             
-            <div className="wrapper-desktop  mt-3" style={{backgroundColor:"white"}}>
+            <div className="wrapper-mobile" style={{backgroundColor:"white"}}>
             
             {home.length > 0 ? (
                 home.map((home, index) => {
                   return (
                       
-            <div className="card card-desktop ml-3 mt-3">
-                <div className="card-body card-body-desktop">
+            <div className="card mt-3 ml-3" style={{width:"21rem"}}>
+            
+                <div className="card-body card-body-mobile">
                 <a href="#" class="card-link">{home.id}</a>
                     <h5 class="ml-3">{home.name}<br />Statements</h5>
                     
                 </div>
-                <div className="card-tv-desktop ml-5">
+                <div className="card-tv-mobile ml-5">
                 <FontAwesomeIcon
                                     icon={faTv}
                                     style={{ color: " blue" }}

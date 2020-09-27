@@ -1,0 +1,11 @@
+.home-layout{
+    display: flex;
+    }
+    .left-sidebar{
+    margin-left: 15rem;
+    }
+    .right-sidebar{
+        margin-left: 14rem;;
+    }
+
+    

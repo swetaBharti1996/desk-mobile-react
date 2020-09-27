@@ -1,22 +1,47 @@
 import React from "react";
 import PageWrapper from "../UI/wrapper/pageWrapper";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Sidebar from "../components/sidebar";
-import { Button } from "antd";
+
 import Card from "./card";
+import Text from "./text";
+import Header from "../components/header/index";
+import Sidebar from "../components/sidebar/index"
+import './home.css'
+
+
 export default class Store extends React.Component {
+  
+    
+  
+
+
   render() {
     const { home } = this.props;
 
     return (
-      <PageWrapper>
-        <Sidebar />
-        {home.map((item, index) => (
-          <Card home={item} />
-        ))}
+      <PageWrapper className="home-layout">
+      <div className="sidebar-responsive">
+       <Sidebar />
+       </div>
+       <div className="left-sidebar">
+      <Header  className="header-responsive"/>
+      <Text />
+      <Card />
+      </div>
+      
+      
+      
+      
+       
+        
+        
+       
+       
 
-        <Footer />
+       
+         
+      
+
+        
       </PageWrapper>
     );
   }
